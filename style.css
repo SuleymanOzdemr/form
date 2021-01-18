@@ -1,0 +1,68 @@
+div {
+    margin: auto;
+    padding-left: 60px;
+    width: 450px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    height: 690px;
+    border-radius: 24px;
+}
+
+form {
+    color: white;
+}
+div h1{
+    padding-top: 1rem;
+}
+#name,
+#surname,
+#date,
+#email,
+#number,
+#text {
+    width: 22rem;
+    height: 1.7rem;
+    background-color: #117A65;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+#name:hover,
+#surname:hover,
+#date:hover,
+#email:hover,
+#number:hover,
+#text :hover{
+    width: 25rem;
+    height: 1.9rem;
+    background-color: #117A65;
+    border: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.25s;
+    border-radius: 10px;
+}
+
+.button {
+    border:0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 3px solid green;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    padding: 10px 35px;
+    float: left;
+    
+    
+}
+.button:hover{
+    background-color:#117A65;
+    padding: 10px 40px;
+    padding-right: 7rem;
+}
